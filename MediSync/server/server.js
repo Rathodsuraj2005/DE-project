@@ -11,7 +11,7 @@ const app = express();
 const PORT = 5000;
 
 // MongoDB URL
-const Mongoose_URL = `mongodb+srv://root:root@mycluster.tkxrr7w.mongodb.net/MediSync?retryWrites=true&w=majority&appName=MyCluster`;
+const Mongoose_URL = `mongodb+srv://rathodsuraj3636:rathodsuraj123@cluster0.er6smxq.mongodb.net`;
 
 // Connect to MongoDB and set up session store
 mongoose
