@@ -11,7 +11,7 @@ const app = express();
 const PORT = 5000;
 
 // MongoDB URL   mongodb+srv://rathodsuraj3636:<db_password>@cluster0.er6smxq.mongodb.net/
-const Mongoose_URL = `mongodb+srv://rathodsuraj3636:rathodsuraj3636@cluster0.er6smxq.mongodb.net`;
+const Mongoose_URL = `mongodb+srv://rathodsuraj3636:<db_password>@cluster0.er6smxq.mongodb.net`;
 
 // Connect to MongoDB and set up session store
 mongoose
