@@ -10,12 +10,12 @@ const prescriptionRoutes = require('./routes/prescriptions');
 const app = express();
 const PORT = 5000;
 
-// MongoDB URL
-const Mongoose_URL = `mongodb+srv://rathodsuraj3636:rathodsuraj123@cluster0.er6smxq.mongodb.net`;
+// MongoDB URL   mongodb+srv://rathodsuraj3636:<db_password>@cluster0.er6smxq.mongodb.net/
+const Mongoose_URL = `mongodb+srv://rathodsuraj3636:rathodsuraj3636@cluster0.er6smxq.mongodb.net`;
 
 // Connect to MongoDB and set up session store
 mongoose
-  .connect(Mongoose_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(Mongoose_URL)
   .then(() => {
     console.log('✅ Connected to MongoDB');
 
